@@ -8,10 +8,9 @@ fun main() {
     println(orders)
     println(gratitude)
 
-//    var numberOfEmployees: Int = 2000
-    // println(numberOfEmployees) // Этот вывод закомментирован по условию задачи
+    var numberOfEmployees: Int = 2000
+    // println(numberOfEmployees)
 
-    // Изменение количества работников
-    val numberOfEmployees = 1999
-    println("Количество работников: $numberOfEmployees")
+    numberOfEmployees = 1999
+//    println("Количество работников: $numberOfEmployees")
 }
