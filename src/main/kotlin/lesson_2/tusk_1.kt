@@ -14,6 +14,11 @@ fun main() {
     val mark3 = 3
     val mark4 = 5
 
-    val average = (mark1 + mark2 + mark3 + mark4) / 4.0
-    println("Average mark is $average")
+    val numberOfStudents = 4
+    val sumOfMarks = mark1 + mark2 + mark3 + mark4
+
+    val average = sumOfMarks.toDouble() / numberOfStudents
+    val formattedAverage = String.format("%.2f", average)
+
+    println("Средний балл: $formattedAverage")
 }
