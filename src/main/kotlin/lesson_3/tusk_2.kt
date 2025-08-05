@@ -12,12 +12,12 @@ fun main() {
     val name = "Татьяна"
     var surname = "Андреева"
     val patronymic = "Сергеевна"
-    val age20 = 20
+    var age = 20
 
-    println("Данная девушка возрастом [$surname $name $patronymic, $age20]")
+    println("Данная девушка возрастом [$surname $name $patronymic, $age]")
 
     surname = "Сидорова"
-    val age22 = 22
+    age = 22
 
-    println("Данная девушка возрастом [$surname $name $patronymic, $age22]")
+    println("Данная девушка возрастом [$surname $name $patronymic, $age]")
 }
