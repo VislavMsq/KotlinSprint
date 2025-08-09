@@ -19,7 +19,5 @@ package com.example.lesson_3
 
 fun main() {
     val num = 6
-    for (i in 1..9) {
-        println("$num x $i = ${num * i}")
-    }
+    println((1..9).joinToString("\n") { "$num x $it = ${num * it}" })
 }
