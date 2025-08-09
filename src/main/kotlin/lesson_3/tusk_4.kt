@@ -21,19 +21,19 @@ fun main() {
     var moveNumber = 1
 
     var move = "[$from-$to;$moveNumber]"
-    println("Ход белых: $move")
+    println(move)
 
     from = "D7"
     to = "D5"
     moveNumber = 1
 
     move = "[$from-$to;$moveNumber]"
-    println("Ход черных: $move")
+    println(move)
 
     from = "D2"
     to = "D3"
     moveNumber = 2
 
     move = "[$from-$to;$moveNumber]"
-    println("Следующий ход белых: $move")
+    println(move)
 }
